@@ -1,7 +1,17 @@
-var myNAME ='monira'
-console.log(myNAME);
-var myMother ='mst'
-console.log(myMother);
-var myFather ='MD'
-console.log(typeof myFather);
+
+var myFather ='string'
+console.log(myFather);
+var myFather ='md'
+console.log(myFather);
+
+var myName = 018273623;
+console.log(typeof myName)
+var numberVariable =9485349
+console.log(numberVariable)
+
+var booltype = true ;
+console.log(booltype)
+var moontype = false ;
+console.log(typeof moontype)
+  
 
