@@ -9,9 +9,10 @@ console.log(typeof myName)
 var numberVariable =9485349
 console.log(numberVariable)
 
+
 var booltype = true ;
-console.log(booltype)
+console.log(typeof booltype)
 var moontype = false ;
-console.log(typeof moontype)
+console.log(moontype)
   
 
