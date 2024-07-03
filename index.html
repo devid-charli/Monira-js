@@ -6,46 +6,41 @@
     <title>javascript</title>
 </head>
 <body>
+<!-- ==   (value equal)
+===  (value plus data type equal) -->
+<!-- JAvascript for loop -->
 
 
 
+<!-- loop majh khan theke bad dite hole aita -->
+<script>
+
+var x;
+for (x=0; x<10; x=x+1)
+{
+    if(x==5 || x==3){
+        continue;
+    }
+    
+document.write(x+ "<button>FOR LOOP</button> </br></br>");
+}
 
 
-
-<!-- javascript switch -->
-    <script>
-       var Mark = 27;
-       switch(true)
-       {
-        case(Mark<=100 && Mark>=80):
-        document.write('you got A+');
+</script>
+<!-- loop besi jokhon baad dite hobe tokhon aita -->
+<script>
+    var x;
+for (x=0; x<10; x=x+1)
+{
+    
+    if(x===6){
         break;
-        case(Mark<80 && Mark>=70):
-        document.write('you got A');
-        break;
-        case(Mark<70 && Mark>=60):
-        document.write("you got A-");
-        break;
-        case(Mark<60 && Mark>=50): 
-        document.write("you got B");
-        break;
-        case(Mark<50 && Mark>=40): 
-        document.write("you got C");
-        break;
-        case(Mark<40 && Mark>=33): 
-        document.write("you got B");
-        break;
-        default: 
-        document.write("you got F");
+    }
+document.write(x+ "<button>FOR LOOP</button> </br></br>");
+}
 
-       }
+</script>
 
 
-
-
-
-
-
-    </script>
 </body>
 </html> 
