@@ -30,13 +30,35 @@ document.write(myLaptop.isSSD ,"<br>");
 // or
 document.write(myLaptop ['ram'],"<br>");
 
-// sob gula Object ak sathe dekhte hole
+// sob gula Object ak sathe dekhte hole:
+        // for in loop :
 for(var item in myLaptop)
 {
 
 document.write(myLaptop [item],"<br>");
 
 }
+
+
+// javascript Array :
+// 1.. ak e rokom data type hobe and
+//  2..index Number(0,1,2,3...........) use kora hoy
+
+// normal Number(1,2,3,4 ......)
+
+var cityName=['dhaka','rajshahi','rongpur','borishal'];
+
+// akta akta kore array dekhte :
+document.write(cityName[2]+"<br>");
+
+var x;
+for(x=0;x<cityName.length;x++)
+{
+    document.write(cityName[x]+ "<br>");
+}
+// x<5 dile 4 ta porjonto show korbee
+// ar x<city.length dite hoy jodi pore onno city name add kora hoy
+
 
 
  </script>
