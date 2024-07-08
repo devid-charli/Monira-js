@@ -6,55 +6,40 @@
     <title>javascript</title>
 </head>
 <body>
-<script>
-
-// // Number type function
-
-// function addTwoNumber(num1,num2)
-// {
-// var num3=num1+num2;
-// document.write(num3,"<br>");
-// }
-// addTwoNumber(21,23);
-// addTwoNumber(12,13);
-// addTwoNumber(41,27);
-// addTwoNumber(55,63);
-// addTwoNumber(23,22);
 
 
-// // string type function
-
-// function myBook(name)
-// {
-// document.write(name,'<br>');
-// }
-// myBook("bishad shindhu");
-// myBook("hajar bosor dhore");
-// myBook("gitanjoli");
-// myBook("kureghor");
-// myBook("pother pachali");
-
-// // value ba parameter return
 
 
-// // String type data return:
-// function myMakeup()
-// {
-//   return "monira" 
-// }
-//  newValue=myMakeup()+" khatun";
-// document.write(newValue);
 
-// Number type data return:
 
-function countNumber(num1,num2)
-{
-return num1-num2;
+
+
+ <script>
+                        //   javascript object
+var myLaptop={
+brand:"doyel", 
+disply:12,
+islaptop:true,
+ram:"8GB",
+processor:"core i7",
+isSSD:true,
 }
-newValue=countNumber(11,12)+10;
-document.write(newValue);
 
-</script>
+// akta akta kore object dekhte :
+document.write(myLaptop.isSSD ,"<br>");
+// or
+document.write(myLaptop ['ram'],"<br>");
+
+// sob gula Object ak sathe dekhte hole
+for(var item in myLaptop)
+{
+
+document.write(myLaptop [item],"<br>");
+
+}
+
+
+ </script>
 
 
 </body>
