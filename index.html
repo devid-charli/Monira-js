@@ -14,55 +14,19 @@
 
 
 
- <script>
-                        //   javascript object
-var myLaptop={
-brand:"doyel", 
-disply:12,
-islaptop:true,
-ram:"8GB",
-processor:"core i7",
-isSSD:true,
-}
+ 
+                       
+<script>
+     //   javascript Array concat
 
-// akta akta kore object dekhte :
-document.write(myLaptop.isSSD ,"<br>");
-// or
-document.write(myLaptop ['ram'],"<br>");
+var book1=["A","B","C","D"];
+var book2=["E","F","G","H"];
+var book3=["I","J","K","L"];
+var book4=book1.concat(book2,book3);
+document.writeln(book4);
 
-// sob gula Object ak sathe dekhte hole:
-        // for in loop :
-for(var item in myLaptop)
-{
+// variable aro add korte chaile: var book5=['e','f'] and var document.writeln=book1.concat(book2,book3,book5)
 
-document.write(myLaptop [item],"<br>");
-
-}
-
-
-// javascript Array :
-// 1.. ak e rokom data type hobe and
-//  2..index Number(0,1,2,3...........) use kora hoy
-
-// normal Number(1,2,3,4 ......)
-
-var cityName=['dhaka','rajshahi','rongpur','borishal'];
-
-// akta akta kore array dekhte :
-document.write(cityName[2]+"<br>");
-
-var x;
-for(x=0;x<cityName.length;x++)
-{
-    document.write(cityName[x]+ "<br>");
-}
-// x<5 dile 4 ta porjonto show korbee
-// ar x<city.length dite hoy jodi pore onno city name add kora hoy
-
-
-
- </script>
-
-
+</script>
 </body>
 </html> 
