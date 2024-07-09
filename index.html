@@ -17,29 +17,25 @@
  
                        
 <script>
-     //   javascript Array concat():  ...
+     
+                    //   javascript array filter()
 
-var book1=["A","B","C","D"];
-var book2=["E","F","G","H"];
-var book3=["I","J","K","L"];
-var book4=book1.concat(book2,book3);
-document.writeln(book4);
-// column akare sajaite chaile:   ....
-var x;
-for(x=0;x<book4.length;x++)
+var serialNumber=[30,35,40,45,50,55,80,90];
+var findNumber=serialNumber.filter(function(item)
 {
-    document.writeln(book4[x],"<br>")
+return item<50;
 }
+);
+document.write(findNumber,"<br>")
 
-// variable aro add korte chaile: var book5=['e','f'] and var document.writeln=book1.concat(book2,book3,book5)
-         
-        //   javascript array from:....
-var myCat="tom & jerry";
-var cat1=Array.from(myCat);
-// sob gula show koraite chaile:
-document.write(cat1);
-// akta akta kore show koraite chaile:
-document.write(cat1[6]);
+        //   or
+var serialNumber=[30,35,40,45,50,55,80,90];
+function marks(number)
+{
+    return number>35;
+}
+document.writeln(serialNumber.filter(marks));
+
 
 
 </script>
