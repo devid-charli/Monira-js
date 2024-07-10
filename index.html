@@ -5,36 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>javascript</title>
 </head>
-<body>
-
-
-
-
-
-
-
-
- 
-                       
+<body>     
 <script>
      
-                    //   javascript array filter()
 
-var serialNumber=[30,35,40,45,50,55,80,90];
-var findNumber=serialNumber.filter(function(item)
-{
-return item<50;
-}
-);
-document.write(findNumber,"<br>")
 
-        //   or
-var serialNumber=[30,35,40,45,50,55,80,90];
-function marks(number)
+                    //   javascript array find()
+var countNumber=[20,40,60,80,100];
+var serialNumber=countNumber.find(function(value)
 {
-    return number>35;
-}
-document.writeln(serialNumber.filter(marks));
+return value>40;
+
+});
+document.writeln(serialNumber);
+
+// or
+var countNumber=[20,40,60,80,100];
+var serialNumber=countNumber.find(x=>x>60);
+document.writeln(serialNumber);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
